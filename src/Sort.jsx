@@ -26,6 +26,7 @@ export default function Sort() {
     
     return (
         <div>
+            <h1>Click Column Headers to Sort</h1>
             <table>
                 <thead>
                     <td onClick={() => sorting("first_name")}>First Name</td>
